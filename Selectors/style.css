@@ -4,19 +4,21 @@
 }
 .body{
    
-background: #DEDEDE;
+     background: #DEDEDE;
 }
+           /*this is for box*/
 .form{
     width: 383px;
-height: 515px;
-flex-shrink: 0;
-border-radius: 4px;
-border: 2px dashed #FFD43A;
-background: #414141;
-margin: auto;
-margin-top: 50px;
-padding-top: 20px;
+    height: 515px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 2px dashed #FFD43A;
+    background: #414141;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
 }
+/*this is for headings*/
 label{
     color: #DEDEDE;
 
@@ -29,6 +31,8 @@ label{
     margin-bottom: 150px;
     
 }
+
+/*this is for my-text and  my-text-placeholder*/
 .my_text{
     width: 315px;
     height: 45px;
@@ -46,26 +50,27 @@ label{
 }
 .my_text::placeholder{
     color: #FFD43A;
-font-family: "fonti";
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: "fonti";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 
 }
+/*this is for my-number and my-number-placeholder*/
 .my_number{
     width: 315px;
-height: 45px;
-flex-shrink: 0;
-border-radius: 4px;
-border: 1px solid #E0E0E0;
-background: #1C1C1C;
-margin-left: 30px;
-margin-top: 5px;
-margin-bottom: 10px;
-padding-left: 5px;
-caret-color: white;
-outline: none;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    background: #1C1C1C;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    caret-color: white;
+    outline: none;
 }
 .my_number::placeholder{
     color: #FFD43A;
@@ -76,65 +81,68 @@ outline: none;
     line-height: normal;
     
 }
+/*this is for my-password and my-password-placeholder*/
 .my_password{
     width: 315px;
-height: 45px;
-flex-shrink: 0;
-border-radius: 4px;
-border: 1px solid #F00;
-background: #1C1C1C;
-margin-left: 30px;
-margin-bottom: 10px;
-padding-left: 5px;
-caret-color: white;
-outline: none;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #F00;
+    background: #1C1C1C;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    caret-color: white;
+    outline: none;
 }
 .my_password::placeholder{
     color: #F00;
 
-font-family: "fonti";
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: "fonti";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 
 }
+/*this is for textarea and textarea-placeholder*/
 textarea{
     width: 315px;
-height: 112px;
-flex-shrink: 0;
-border-radius: 4px;
-border: 1px solid #E0E0E0;
-background: #1C1C1C;
-margin-left: 30px;
-padding-left: 5px;
-outline: none;
-caret-color: white;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    background: #1C1C1C;
+    margin-left: 30px;
+    padding-left: 5px;
+    outline: none;
+    caret-color: white;
 }
 textarea::placeholder{
     color: yellow;
     font-family: "fonti";
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-caret-color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    caret-color: white;
 
 }
+/*this is for button*/
 .button1{
     width: 330px;
-height: 45px;
-flex-shrink: 0;
-border: none;
-border-radius: 10px;
-background: #FFD43A;
-color: #000;
-font-family: "fonti";
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-left: 30px;
-margin-top: 30px;
-outline: none;
+    height: 45px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #FFD43A;
+    color: #000;
+    font-family: "fonti";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 30px;
+    margin-top: 30px;
+    outline: none;
 }
